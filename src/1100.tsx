@@ -28,9 +28,9 @@ export default function Model({ ...props }) {
       // rotate
       group.current.rotation.y = THREE.MathUtils.lerp(
         group.current.rotation.y,
-        2 * Math.PI,
+        2 * Math.PI + 0.6 * Math.sin(mouse.x),
         spinningt * spinningt * spinningt
-      );
+      ) 
       spinningt += 0.01;
       if (spinningt > 1) {
         spinning = false;

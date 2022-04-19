@@ -9,9 +9,8 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-git checkout main
+git init
+git checkout -b dev
 git add -A
 git commit -m 'deploy'
 
@@ -19,6 +18,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:feresr/1100.git main:gh-pages
+git push -f https://github.com/feresr/1100.git dev:gh-pages
 
 cd -

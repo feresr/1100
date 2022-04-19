@@ -11,14 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#credits {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  padding: 42px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 html,
 body,
 #root {
  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
   /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
-
-
-
+  display: flex;
   width: 100vw;
   height: 100%;
   margin: 0;
