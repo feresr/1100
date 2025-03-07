@@ -1,6 +1,7 @@
 {
   "name": "1100",
   "private": true,
+  "homepage": ".",
   "version": "0.0.0",
   "publicDir": "public",
   "scripts": {
@@ -10,7 +11,7 @@
   },
   "dependencies": {
     "@react-spring/three": "^9.4.4",
-    "@react-three/drei": "^9.4.2",
+    "@react-three/drei": "^9.6.5",
     "@react-three/fiber": "^8.0.11",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
